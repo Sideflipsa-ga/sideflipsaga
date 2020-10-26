@@ -32,13 +32,3 @@ padding-right: 24px;
     <script>
     alert("hi from javascript")
 </script>
-<!-- <script>
-javaEnabled({
-  public static void main(String[] args) {
-    try(PythonInterpreter pyInterp = new PythonInterpreter()) {
-      pyInterp.exec("print('Hello Python World!')");
-    }
-  }
-}
-)
-</script> -->
