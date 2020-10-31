@@ -17,7 +17,6 @@
 <p>Warning this website is made for firefox some things may not work in Chrome, Safari, etc</p>
 </body>
 <style type="text/css">body {
-background-color: navy;
 font-family: sans-serif;
 margin-left: auto;
 margin-right: auto;
@@ -29,4 +28,11 @@ padding-left: 24px;
 padding-right: 24px;
 }</style>
 </html>
-<script>alert("Hi from SideFlipSaga")</script>
+<script>
+colors=["navy","thistle","gold","lightgreen"]
+var timer=window.setInterval(changeColor, 1000);
+function changeColor(){
+	var n=Math.round(Math.random()*4);
+	document.body.style.backgroundColor=colors[n];
+	}
+</script>
