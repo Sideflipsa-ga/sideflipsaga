@@ -29,10 +29,8 @@ padding-right: 24px;
 }</style>
 </html>
 <script>
-colors=["navy","thistle","gold","lightgreen","brown","lightblue"]
-var timer=window.setInterval(changeColor, 10002);
-function changeColor(){
-	var n=Math.round(Math.random()*4);
-	document.body.style.backgroundColor=colors[n];
-	}
+answer=prompt("What is 8x8");
+if(answer==64){
+	alert("Good job");
+}
 </script>
