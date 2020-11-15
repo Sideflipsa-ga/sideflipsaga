@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <script>alert("Hi from SideFlipSaga")</script>
+<script>
+colors=["navy","thistle","gold","lightgreen","brown","lightblue","pink","orange","grey","green","teal","red","purple","blue","yellow"]
+var timer=window.setInterval(changeColor, 10002);
+function changeColor(){
+	var n=Math.round(Math.random()*4);
+	document.body.style.backgroundColor=colors[n];
+	}
+</script>
 <style type="text/css">body {
 font-family: sans-serif;
 margin-left: auto;
@@ -31,12 +39,3 @@ padding-right: 24px;
 <h6>Warning this website is made for firefox some things may not work in Chrome, Safari, etc</h6>
 </body>
 </html>
-<script>alert("Hi from SideFlipSaga")</script>
-<script>
-colors=["navy","thistle","gold","lightgreen","brown","lightblue","pink","orange","grey","green","teal","red","purple","blue","yellow"]
-var timer=window.setInterval(changeColor, 10002);
-function changeColor(){
-	var n=Math.round(Math.random()*4);
-	document.body.style.backgroundColor=colors[n];
-	}
-</script>
