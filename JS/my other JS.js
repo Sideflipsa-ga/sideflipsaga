@@ -1,2 +1,1 @@
-alert("Hi From The SideFlipsa.ga Devs")
-console.log("Good job geting here")
+console.log('%c Wow, I did not think anyone would come back here!', 'color: #1c87c9; font-size: 18px');
