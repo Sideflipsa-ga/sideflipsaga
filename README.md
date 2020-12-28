@@ -1,2 +1,5 @@
-Ths is SideFlipSaga I made it because I like coding. But didn't want to keep using google sites. So I made this.
-This is also how I remember HTML, that is why I put in the comments.
+This Is A Website Belive It Or Not.
+-Sideflip
+
+This is a simple website to teach HTML.
+-MrBrain
