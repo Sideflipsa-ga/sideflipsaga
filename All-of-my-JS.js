@@ -4,3 +4,8 @@ function changeColor(){
 	let n=Math.round(Math.random()*24);
 	document.body.style.backgroundColor=colors[n];
 	}
+
+
+
+alert("Hi frome the SideFlipSa.ga devs!")
+console.log('%c Wow, I did not think anyone would come back here!', 'color: #00ffe5; font-size: 18px');
