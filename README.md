@@ -1,4 +1,4 @@
-This is a website belive it or not.
+This Website Be looking kinda T H I C C
 -Sideflip
 
 This is a simple website to teach HTML5.
