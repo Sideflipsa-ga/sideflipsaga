@@ -9,7 +9,7 @@ padding-left: 20px;
 padding-right: 24px;
 }
 
-.blink {
+./* I got this code from mrdoob.*/  .blink {
 @-webkit-keyframes blink { 70% { visibility: hidden; } }
 @-moz-keyframes blink { 70% { visibility: hidden; } }
 @keyframes blink { 70% { visibility: hidden; } }
