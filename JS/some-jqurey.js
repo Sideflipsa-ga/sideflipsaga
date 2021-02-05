@@ -1,3 +1,3 @@
 setTimeout(function() {
-  $("#dissaper").fadeOut().empty();
+  $("#dissapper").fadeOut().empty();
 }, 5000);
