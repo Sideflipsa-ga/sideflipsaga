@@ -8,14 +8,3 @@ padding-bottom: 24px;
 padding-left: 20px;
 padding-right: 24px;
 }
-
-./* I got this code from mrdoob.*/  .blink {
-@-webkit-keyframes blink { 70% { visibility: hidden; } }
-@-moz-keyframes blink { 70% { visibility: hidden; } }
-@keyframes blink { 70% { visibility: hidden; } }
-
-.blink {
-	-webkit-animation: blink 0.5s alternate steps(1) infinite;
-	-moz-animation: blink 0.5s alternate steps(1) infinite;
-	animation: blink 0.5s alternate steps(1) infinite;
-}
