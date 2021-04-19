@@ -8,4 +8,4 @@ function changeColor(){
 
 
 alert("Hi from the SideFlipSaga devs!");
-console.log("%c Wow, I din't think anyone would come back here! -Side', 'color: #00ffe5; font-size: 18px");
+console.log('%c Wow, I din't think anyone would come back here! -Side', 'color: #00ffe5; font-size: 18px');
