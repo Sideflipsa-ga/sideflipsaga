@@ -1,7 +1,7 @@
-/*Tells the browser this is styleing the main element.*/
-main {
+/*Tells the browser this is styleing the body.*/
+body {
   /*Sorry I know this CSS is kinda self explanitary but comments might help.*/
-font-family: 'Sans-serif';
+font-family: sans-serif;
   /*Tells the browser what fonts to use.*/
 margin-left: auto;
 margin-right: auto;
