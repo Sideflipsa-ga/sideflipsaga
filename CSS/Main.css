@@ -1,7 +1,7 @@
 /*Tells the browser this is styleing the body.*/
 body {
   /*Sorry I know this CSS is kinda self explanitary but comments might help.*/
-font-family: sans-serif;
+font-family: 'Odibee Sans';
   /*Tells the browser what fonts to use.*/
 margin-left: auto;
 margin-right: auto;
