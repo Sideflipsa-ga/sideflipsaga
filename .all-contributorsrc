@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "MrBrain295",
+      "name": "MrBrain295",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66077254?v=4",
+      "profile": "https://github.com/MrBrain295",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "New-SideFlipSaga.github.io",
+  "projectOwner": "Sideflipsa-ga",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
