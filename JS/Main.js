@@ -3,6 +3,5 @@ colors = function randomHsl() {
 };
 let timer = window.setInterval(changeColor, 1002);
 function changeColor() {
-  let n = Math.round(Math.random() * 25);
-  document.body.style.backgroundColor = colors[n];
+  document.body.style.backgroundColor = colors;
 }
