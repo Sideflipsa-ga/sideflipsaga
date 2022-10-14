@@ -1,6 +1,9 @@
-colors=["lab(12.98 , 47.51 , -64.70)","thistle","gold","lightgreen","brown","lightblue","pink","orange","grey","green","teal","red","purple","blue","yellow","hotpink","#800000","#d872c6","#cc9320","blanchedalmond","lightgoldenrodyellow","cornflowerblue","darkgoldenrod","chocolate","rgba(0, 102, 85, 0.71)","#bbd5cc","#60a0a2"]
-let timer=window.setInterval(changeColor, 1002);
-function changeColor(){
-	let n=Math.round(Math.random()*25);
-	document.body.style.backgroundColor=colors[n];
-	}
+function random_rgba() {
+    var o = Math.round, r = Math.random, s = 255;
+    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+}
+
+for (var i=0; i<10; i++) {
+    console.log( random_rgba() ) 
+}
+document.body.style.backgroundColor = random_rgba;
