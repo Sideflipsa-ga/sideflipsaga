@@ -4,6 +4,6 @@ function random_rgba() {
 }
 
 for (var i=0; i<10; i++) {
-    console.log( random_rgba() );
     document.body.style.backgroundColor = rgba;
+    console.log( random_rgba() )
 }
