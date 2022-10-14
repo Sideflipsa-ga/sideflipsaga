@@ -8,6 +8,6 @@ function random_bg_color() {
     document.body.style.background = bgColor;
     }
 
-for (var i = 0; i < Infinity; i++) {
+while (1=1) {
 random_bg_color();
 }
